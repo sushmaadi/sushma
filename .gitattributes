@@ -1,2 +1,119 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Dominous pizza</title>
+          <meta charset="UTF-8>
+          <meta name="viewport" content="width=device-width, intial-scale=1.0">
+          <link rel="stylesheet" href="./style.css" /> 
+    </head>
+
+    <body>
+        <header>
+    
+         <h1>Best pizza Ever</h1>
+        <h3>come and get some ,homie</h3>
+        </header>
+    
+        <main>
+            <section>
+                <table width="100%" border ="1px">
+                    <thead>
+                        <tr>
+                            <th>sl no</th>
+                            <th>pizza</th>
+                            <th>price</th>
+                        </tr>
+
+                        <tr>
+                            <td>01</td>
+                            <td>corn pizza</td>
+                            <td>$16.99</td>
+                        </tr>
+
+                        <tr>
+                            <td>02</td>
+                            <td>veg pizza</td>
+                            <td>$17.99</td>
+                        </tr>
+
+                        <tr>
+                            <td>03</td>
+                            <td>mushroom pizza</td>
+                            <td>$12.99</td>
+                        </tr>
+
+                    </thead>
+                </table>
+
+            </section>
+        </main>
+
+        <section>
+            <h4>pizza</h4>
+
+            <input name="pizza" type="checkbox"/>corn pizza</br>
+            <input name="pizza" type="checkbox"/>veg pizza</br>
+            <input name="pizza" type="checkbox"/>mushroom pizza</br>
+          
+
+
+           <h4>Ingredients</h4>
+       <input name="Ingredients" type="checkbox"/>chesse</br>
+       <input name="Ingredients" type="checkbox"/>pepperoni</br>
+       <input name="Ingredients" type="checkbox"/>salami</br>
+       <input name="Ingredients" type="checkbox"/>Bacon</br>
+      <input name="Ingredients" type="checkbox"/>onion</br>
+      <input name="Ingredients" type="checkbox"/>sausage</br>
+
+
+
+       <h3>sides</h3>
+       <input name="sides" type="checkbox"/>bevrages</br>
+       <input name="sides" type="checkbox"/>burger</br>
+       <input name="sides" type="checkbox"/>pastha</br>
+       <input name="sides" type="checkbox"/>sandwitch</br>
+       
+       
+       
+       <h3>size</h3>
+       <select name="size">
+           <option value="12">12"-$15.99</option></section>br>
+           <option value="16">16"-$18.99</option></br>
+           <option value="18">18"-$22.99</option></br>
+       </select>
+
+
+
+
+           <h3>place-order</h3>
+       <form method="GET" action="place-order.php">
+       <input name="Address1" placeholder="Address line 1" class="ig-input"/></br>
+       <input name="Address2" placeholder="Address line 2" class="ig-input"/></br>
+
+    
+       <input name="city" placeholder="city" class="sm-input" />
+       <input name="Area" placeholder="Area" class="sm-input" />
+        <input name="zip" placeholder="zip code" class="sm-input" />
+        </form>
+
+    </br>
+       <secition>
+           <h3>Delivery method</h3>
+           <input name="delivery method" type="radio" value="delivery"/>Delivery</br>
+           <input name="delivery method" type="radio" value="pickup"/>Pickup</br>
+        </secition>
+           
+
+       
+       
+
+    </br>
+    <button>submit</button>
+
+
+
+    </br>
+        <footer><center>thank you</center></footer>
+        <footer><center>Welcome Again!</center></footer>
+    </body>
+</html>
